@@ -14,18 +14,23 @@ public class SomeController {
 
     @Autowired
     @Qualifier("helloWorld1")
-    HelloWorld helloWorld;
+    HelloWorld helloWorld1;
+
+    @Autowired
+    @Qualifier("helloWorld2")
+    HelloWorld helloWorld2;
 
     @GetMapping("/getHandler")
     public String someHandler(@RequestParam String name) {
         log.info("get handler: name:{}", name);
-        helloWorld.printHelloWorld();
+        helloWorld1.printHelloWorld();
         return "spring boot hello " + name;
     }
 
     @PostMapping("/postHandler")
     public String postHandler(@RequestBody BodyVO param) {
         log.info("get handler: BodyVO:{}", param);
-      return String.format("hello %s, %s years old", param.getName(), param.getAge());
+        helloWorld2.printHelloWorld();
+        return String.format("hello %s, %s years old", param.getName(), param.getAge());
     }
 }
