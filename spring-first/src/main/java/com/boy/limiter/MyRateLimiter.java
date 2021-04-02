@@ -18,15 +18,16 @@ public class MyRateLimiter {
         try {
             System.out.println(TimeUnit.SECONDS.toMillis(1));
             RateLimiter rateLimiter = RateLimiter.create(0.5);
-            Thread.sleep(10L);
+            //Thread.sleep(10L);
             List<Integer> list = Arrays.asList(1,6,2);
             list.forEach(i->{
                 Long start = System.currentTimeMillis();
+                System.out.println("["+i+"] :"+ String.valueOf(start));
                 rateLimiter.acquire(i);
-                System.out.println("gap is :"+ String.valueOf(System.currentTimeMillis() - start));
+                System.out.println("["+i+"]gap is :"+ String.valueOf(System.currentTimeMillis() - start));
 
             });
-        } catch (InterruptedException e) {
+        } catch (Exception e) {
             e.printStackTrace();
         }
     }

@@ -2,18 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5772cdba-f527-4243-99be-eb3510734614" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/spring-first/src/main/java/com/boy/breaker/CircuitBreaker.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-first/src/main/java/com/boy/breaker/ExecuteCircuitBreaker.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-first/src/main/java/com/boy/breaker/QpsCircuitBreaker.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-first/src/main/java/com/boy/limiter/ExecuteRateLimiter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-first/src/main/java/com/boy/limiter/MyRateLimiter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-first/src/main/java/com/boy/limiter/QpsRateLimiter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-first/src/main/java/com/boy/limiter/RedisPermits.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-first/src/main/java/com/boy/limiter/RedisRateLimiter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-first/src/main/java/com/boy/alg/APowerB.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-first/src/main/java/com/boy/alg/MidFind.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-first/src/main/java/com/boy/alg/TwoSum.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-first/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-first/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-first/src/main/java/com/boy/limiter/MyRateLimiter.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-first/src/main/java/com/boy/limiter/MyRateLimiter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/war-second/src/main/java/com/boy/alg/SortAlg.java" beforeDir="false" afterPath="$PROJECT_DIR$/war-second/src/main/java/com/boy/alg/SortAlg.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/spring-first/target/" />
@@ -46,64 +40,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/spring-first/src/main/java/com/boy/breaker/QpsCircuitBreaker.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" column="41" selection-start-line="5" selection-start-column="41" selection-end-line="5" selection-end-column="41" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spring-first/src/main/java/com/boy/breaker/ExecuteCircuitBreaker.java">
+        <entry file="file://$PROJECT_DIR$/spring-first/src/main/java/com/boy/limiter/ExecuteRateLimiter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="212">
-              <caret line="17" column="36" lean-forward="true" selection-start-line="17" selection-start-column="36" selection-end-line="17" selection-end-column="36" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#551#552#0" expanded="true" />
-                <element signature="e#593#594#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://D:/java1.8_32bit/src.zip!/java/util/function/Supplier.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="40" column="17" selection-start-line="40" selection-start-column="17" selection-end-line="40" selection-end-column="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://D:/java1.8_32bit/src.zip!/java/util/function/BiFunction.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="266">
-              <caret line="50" column="34" lean-forward="true" selection-start-line="50" selection-start-column="34" selection-end-line="50" selection-end-column="34" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://D:/java1.8_32bit/src.zip!/java/util/function/UnaryOperator.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="245">
-              <caret line="40" column="17" selection-start-line="40" selection-start-column="17" selection-end-line="40" selection-end-column="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://D:/java1.8_32bit/src.zip!/java/util/function/Consumer.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="371">
-              <caret line="49" lean-forward="true" selection-start-line="49" selection-end-line="49" />
+            <state relative-caret-position="315">
+              <caret line="25" column="1" lean-forward="true" selection-start-line="25" selection-start-column="1" selection-end-line="25" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -111,8 +52,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/spring-first/src/main/java/com/boy/limiter/QpsRateLimiter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="317">
-              <caret line="40" column="20" lean-forward="true" selection-start-line="40" selection-start-column="20" selection-end-line="40" selection-end-column="20" />
+            <state relative-caret-position="540">
+              <caret line="36" column="36" lean-forward="true" selection-start-line="36" selection-start-column="36" selection-end-line="36" selection-end-column="36" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -121,25 +62,93 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spring-first/src/main/java/com/boy/limiter/ExecuteRateLimiter.java">
+        <entry file="file://$PROJECT_DIR$/spring-first/src/main/java/com/boy/Interceptor/AuthInterceptor.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="17" column="25" selection-start-line="17" selection-start-column="16" selection-end-line="17" selection-end-column="25" />
+            <state relative-caret-position="135">
+              <caret line="23" column="13" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/spring-first/src/main/java/com/boy/alg/dg.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="495">
+              <caret line="33" column="9" lean-forward="true" selection-start-line="33" selection-start-column="9" selection-end-line="33" selection-end-column="9" />
               <folding>
-                <element signature="e#187#188#0" expanded="true" />
-                <element signature="e#234#235#0" expanded="true" />
-                <element signature="e#377#378#0" expanded="true" />
-                <element signature="e#408#409#0" expanded="true" />
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="jar://D:/java1.8_32bit/src.zip!/java/util/concurrent/Semaphore.java">
+        <entry file="file://$PROJECT_DIR$/spring-first/src/main/java/com/boy/alg/TwoSum.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-517">
-              <caret line="523" column="19" selection-start-line="523" selection-start-column="19" selection-end-line="523" selection-end-column="19" />
+            <state relative-caret-position="330">
+              <caret line="22" column="13" lean-forward="true" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/spring-first/src/main/java/com/boy/alg/APowerB.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="360">
+              <caret line="24" column="9" lean-forward="true" selection-start-line="24" selection-start-column="9" selection-end-line="24" selection-end-column="9" />
+              <folding>
+                <element signature="e#179#180#0" expanded="true" />
+                <element signature="e#215#216#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://D:/java1.8_32bit/src.zip!/java/util/Collections.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="391">
+              <caret line="139" column="57" selection-start-line="139" selection-start-column="57" selection-end-line="139" selection-end-column="57" />
+              <folding>
+                <element signature="e#5644#5645#0" expanded="true" />
+                <element signature="e#5675#5676#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/spring-first/src/main/java/com/boy/breaker/QpsCircuitBreaker.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="285">
+              <caret line="19" column="35" selection-start-line="19" selection-start-column="35" selection-end-line="19" selection-end-column="35" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/spring-first/src/main/java/com/boy/limiter/MyRateLimiter.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="510">
+              <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/spring-first/src/main/java/com/boy/alg/MidFind.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="450">
+              <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -168,6 +177,9 @@
       <find>getReader</find>
       <find>refresh(</find>
       <find>getBean</find>
+      <find>ExecuteCircuitBreaker</find>
+      <find>QpsCircuitBreaker</find>
+      <find>ExecuteRateLimiter</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -176,13 +188,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/cloud-provider/src/main/java/com/boy/bean/Depart.java" />
-        <option value="$PROJECT_DIR$/cloud-provider/src/main/resources/application.properties" />
-        <option value="$PROJECT_DIR$/cloud-provider/pom.xml" />
-        <option value="$PROJECT_DIR$/spring-first/src/main/java/com/boy/alg/dg.java" />
-        <option value="$PROJECT_DIR$/spring-first/src/main/java/com/boy/hystrix/HystrixTest.java" />
-        <option value="$PROJECT_DIR$/spring-first/src/main/java/com/boy/hystrix/HystrixCommand4SemaphoreTest .java" />
-        <option value="$PROJECT_DIR$/spring-first/src/main/java/com/boy/hystrix/HelloWorldHystrixObservableCommand.java" />
         <option value="$PROJECT_DIR$/spring-first/src/test/java/com/boy/hystrix/HystrixCommand4ExecuteTest.java" />
         <option value="$PROJECT_DIR$/spring-first/src/test/java/com/boy/hystrix/HystrixCommand4QueueTest.java" />
         <option value="$PROJECT_DIR$/spring-first/src/main/java/com/boy/hystrix/HelloWorldHystrixCommand.java" />
@@ -218,15 +223,22 @@
         <option value="$PROJECT_DIR$/spring-first/.gitignore" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/spring-first/pom.xml" />
-        <option value="$PROJECT_DIR$/spring-first/src/main/java/com/boy/limiter/MyRateLimiter.java" />
         <option value="$PROJECT_DIR$/spring-first/src/main/java/com/boy/limiter/RedisPermits.java" />
         <option value="$PROJECT_DIR$/spring-first/src/main/java/com/boy/limiter/RedisRateLimiter.java" />
         <option value="$PROJECT_DIR$/spring-first/src/main/java/com/boy/breaker/CircuitBreaker.java" />
         <option value="$PROJECT_DIR$/spring-first/src/main/java/com/boy/limiter/ExecuteRateLimiter.java" />
-        <option value="$PROJECT_DIR$/spring-first/src/main/java/com/boy/breaker/ExecuteCircuitBreaker.java" />
         <option value="$PROJECT_DIR$/spring-first/src/main/java/com/boy/hystrix/HystrixCommand4SemaphoreTest.java" />
-        <option value="$PROJECT_DIR$/spring-first/src/main/java/com/boy/limiter/QpsRateLimiter.java" />
         <option value="$PROJECT_DIR$/spring-first/src/main/java/com/boy/breaker/QpsCircuitBreaker.java" />
+        <option value="$PROJECT_DIR$/spring-first/src/main/java/com/boy/limiter/QpsRateLimiter.java" />
+        <option value="$PROJECT_DIR$/spring-first/src/main/java/com/boy/alg/Hello.java" />
+        <option value="$PROJECT_DIR$/war-second/src/main/java/com/boy/alg/SortAlg.java" />
+        <option value="$PROJECT_DIR$/spring-first/src/main/java/com/boy/breaker/ExecuteCircuitBreaker.java" />
+        <option value="$PROJECT_DIR$/spring-first/src/main/java/com/boy/limiter/MyRateLimiter.java" />
+        <option value="$PROJECT_DIR$/spring-first/src/main/java/com/boy/alg/TwoSum.java" />
+        <option value="$PROJECT_DIR$/spring-first/src/main/java/com/boy/alg/NumPlus.java" />
+        <option value="$PROJECT_DIR$/spring-first/src/main/java/com/boy/alg/APowerB.java" />
+        <option value="$PROJECT_DIR$/spring-first/src/main/java/com/boy/alg/Mid.java" />
+        <option value="$PROJECT_DIR$/spring-first/src/main/java/com/boy/alg/MidFind.java" />
       </list>
     </option>
   </component>
@@ -250,9 +262,10 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="y" value="-30" />
-    <option name="width" value="1850" />
-    <option name="height" value="1100" />
+    <option name="x" value="1912" />
+    <option name="y" value="-362" />
+    <option name="width" value="1034" />
+    <option name="height" value="1936" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -260,7 +273,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -301,6 +313,24 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="boy" type="462c0819:PsiDirectoryNode" />
+              <item name="alg" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring_courses" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-first" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="boy" type="462c0819:PsiDirectoryNode" />
+              <item name="bean" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring_courses" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-first" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="boy" type="462c0819:PsiDirectoryNode" />
               <item name="breaker" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -310,7 +340,16 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="boy" type="462c0819:PsiDirectoryNode" />
-              <item name="hystrix" type="462c0819:PsiDirectoryNode" />
+              <item name="configurer" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring_courses" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-first" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="boy" type="462c0819:PsiDirectoryNode" />
+              <item name="Interceptor" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="spring_courses" type="b2602c69:ProjectViewProjectNode" />
@@ -326,6 +365,7 @@
         </subPane>
       </pane>
       <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -343,7 +383,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../clickhouse-jdbc" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../yun_crm" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -371,13 +411,39 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.MyRateLimiter">
-    <configuration name="HystrixCommand4SemaphoreTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.boy.hystrix.HystrixCommand4SemaphoreTest" />
+  <component name="RunManager" selected="Application.APowerB">
+    <configuration name="APowerB" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.boy.alg.APowerB" />
       <module name="spring-first" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.boy.hystrix.*" />
+          <option name="PATTERN" value="com.boy.alg.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Hello" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.boy.alg.Hello" />
+      <module name="spring-first" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.boy.alg.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MidFind" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.boy.alg.MidFind" />
+      <module name="spring-first" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.boy.alg.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -398,50 +464,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HystrixCommand4ExecuteTest.testExecute" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TwoSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.boy.alg.TwoSum" />
       <module name="spring-first" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.boy.hystrix.*" />
+          <option name="PATTERN" value="com.boy.alg.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.boy.hystrix" />
-      <option name="MAIN_CLASS_NAME" value="com.boy.hystrix.HystrixCommand4ExecuteTest" />
-      <option name="METHOD_NAME" value="testExecute" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="HystrixCommand4ObservableTest.testObservable" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="spring-first" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.boy.hystrix.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.boy.hystrix" />
-      <option name="MAIN_CLASS_NAME" value="com.boy.hystrix.HystrixCommand4ObservableTest" />
-      <option name="METHOD_NAME" value="testObservable" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MyTest.getMyList" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="spring-first" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.boy.coll.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.boy.coll" />
-      <option name="MAIN_CLASS_NAME" value="com.boy.coll.MyTest" />
-      <option name="METHOD_NAME" value="getMyList" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -476,11 +507,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.APowerB" />
+        <item itemvalue="Application.TwoSum" />
         <item itemvalue="Application.MyRateLimiter" />
-        <item itemvalue="JUnit.MyTest.getMyList" />
-        <item itemvalue="JUnit.HystrixCommand4ObservableTest.testObservable" />
-        <item itemvalue="JUnit.HystrixCommand4ExecuteTest.testExecute" />
-        <item itemvalue="Application.HystrixCommand4SemaphoreTest" />
+        <item itemvalue="Application.MidFind" />
+        <item itemvalue="Application.Hello" />
       </list>
     </recent_temporary>
   </component>
@@ -511,7 +542,13 @@
       <workItem from="1599812568335" duration="3181000" />
       <workItem from="1600653539041" duration="3859000" />
       <workItem from="1600913468920" duration="566000" />
-      <workItem from="1600915017500" duration="9449000" />
+      <workItem from="1600915017500" duration="11505000" />
+      <workItem from="1601289119212" duration="564000" />
+      <workItem from="1601363917788" duration="1827000" />
+      <workItem from="1608598344328" duration="2570000" />
+      <workItem from="1609117216498" duration="1315000" />
+      <workItem from="1609125798448" duration="8700000" />
+      <workItem from="1617005557554" duration="18466000" />
     </task>
     <servers />
   </component>
@@ -545,14 +582,14 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="149468000" />
+    <option name="totallyTimeSpent" value="184966000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1487" height="878" extended-state="6" />
+    <frame x="1912" y="-362" width="1034" height="1936" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.72494173" visible="true" weight="0.32190344" />
-      <window_info id="Structure" order="1" sideWeight="0.27505827" side_tool="true" weight="0.2974108" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.7227926" visible="true" weight="0.261807" />
+      <window_info id="Structure" order="1" sideWeight="0.2772074" side_tool="true" weight="0.34429672" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
       <window_info id="Capture Tool" order="4" />
@@ -560,17 +597,17 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32931036" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.29224378" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.22437674" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.26602924" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.43905818" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Spring" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.2797784" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.26827896" />
       <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5003499" side_tool="true" weight="0.32825485" />
-      <window_info anchor="bottom" id="Messages" order="11" sideWeight="0.4996501" weight="0.32825485" />
+      <window_info anchor="bottom" id="Messages" order="11" sideWeight="0.4996501" weight="0.3278965" />
       <window_info anchor="bottom" id="Java Enterprise" order="12" />
       <window_info anchor="bottom" id="Database Changes" order="13" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="14" />
@@ -651,102 +688,6 @@
     </watches-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://D:/java1.8/src.zip!/java/lang/FunctionalInterface.java" />
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-aop/5.2.7.RELEASE/spring-aop-5.2.7.RELEASE.jar!/org/springframework/aop/framework/autoproxy/AbstractAutoProxyCreator.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="108" column="18" selection-start-line="108" selection-start-column="18" selection-end-line="108" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.2.7.RELEASE/spring-beans-5.2.7.RELEASE-sources.jar!/org/springframework/beans/factory/ObjectFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="196">
-          <caret line="39" column="17" selection-start-line="39" selection-start-column="17" selection-end-line="39" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.2.7.RELEASE/spring-beans-5.2.7.RELEASE-sources.jar!/org/springframework/beans/factory/config/BeanPostProcessor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-22">
-          <caret line="57" column="17" selection-start-line="57" selection-start-column="17" selection-end-line="57" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.2.7.RELEASE/spring-beans-5.2.7.RELEASE-sources.jar!/org/springframework/beans/factory/config/InstantiationAwareBeanPostProcessorAdapter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="421">
-          <caret line="55" column="18" selection-start-line="55" selection-start-column="18" selection-end-line="55" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/5.2.7.RELEASE/spring-context-5.2.7.RELEASE-sources.jar!/org/springframework/context/annotation/CommonAnnotationBeanPostProcessor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="158">
-          <caret line="309" column="19" selection-start-line="309" selection-start-column="19" selection-end-line="309" selection-end-column="19" />
-          <folding>
-            <element signature="e#13614#13615#0" expanded="true" />
-            <element signature="e#13632#13633#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.2.7.RELEASE/spring-beans-5.2.7.RELEASE-sources.jar!/org/springframework/beans/factory/config/InstantiationAwareBeanPostProcessor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="89" column="42" lean-forward="true" selection-start-line="89" selection-start-column="42" selection-end-line="89" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.2.7.RELEASE/spring-beans-5.2.7.RELEASE-sources.jar!/org/springframework/beans/factory/support/DefaultSingletonBeanRegistry.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="179" column="21" selection-start-line="179" selection-start-column="21" selection-end-line="179" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-aop/5.2.7.RELEASE/spring-aop-5.2.7.RELEASE.jar!/org/springframework/aop/aspectj/annotation/AnnotationAwareAspectJAutoProxyCreator.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.2.7.RELEASE/spring-beans-5.2.7.RELEASE-sources.jar!/org/springframework/beans/factory/config/SmartInstantiationAwareBeanPostProcessor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="37" column="17" selection-start-line="37" selection-start-column="17" selection-end-line="37" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.2.7.RELEASE/spring-beans-5.2.7.RELEASE-sources.jar!/org/springframework/beans/AbstractNestablePropertyAccessor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="158">
-          <caret line="201" column="24" selection-start-line="201" selection-start-column="24" selection-end-line="201" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.2.7.RELEASE/spring-beans-5.2.7.RELEASE-sources.jar!/org/springframework/beans/BeanWrapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="158">
-          <caret line="66" column="11" selection-start-line="66" selection-start-column="11" selection-end-line="66" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.2.7.RELEASE/spring-beans-5.2.7.RELEASE-sources.jar!/org/springframework/beans/factory/support/MergedBeanDefinitionPostProcessor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="16">
-          <caret line="37" column="17" selection-start-line="37" selection-start-column="17" selection-end-line="37" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.2.7.RELEASE/spring-beans-5.2.7.RELEASE-sources.jar!/org/springframework/beans/factory/support/AbstractBeanDefinition.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="158">
-          <caret line="608" column="15" selection-start-line="608" selection-start-column="15" selection-end-line="608" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.2.7.RELEASE/spring-beans-5.2.7.RELEASE-sources.jar!/org/springframework/beans/factory/support/AbstractAutowireCapableBeanFactory.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="25320">
@@ -810,20 +751,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spring-first/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="555">
-          <caret line="37" selection-start-line="37" selection-end-line="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/google/guava/guava/23.0/guava-23.0.jar!/com/google/common/util/concurrent/RateLimiter.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1140">
-          <caret line="91" column="40" selection-start-line="91" selection-start-column="33" selection-end-line="91" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/spring-first/src/main/java/com/boy/aop/Person.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
@@ -849,34 +776,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spring-first/src/main/java/com/boy/limiter/RedisPermits.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-853">
-          <caret line="11" column="1" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-first/src/main/java/com/boy/limiter/RedisRateLimiter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="124" column="76" lean-forward="true" selection-start-column="2" selection-end-line="142" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://D:/java1.8_32bit/src.zip!/java/util/concurrent/atomic/AtomicInteger.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="158">
           <caret line="131" column="25" selection-start-line="131" selection-start-column="25" selection-end-line="131" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/java1.8_32bit/src.zip!/java/lang/FunctionalInterface.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="371">
-          <caret line="67" column="18" selection-start-line="67" selection-start-column="18" selection-end-line="67" selection-end-column="18" />
         </state>
       </provider>
     </entry>
@@ -901,30 +804,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://D:/java1.8_32bit/src.zip!/java/util/function/Function.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="40" column="17" selection-start-line="40" selection-start-column="17" selection-end-line="40" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-first/src/main/java/com/boy/breaker/CircuitBreaker.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="16" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-first/src/main/java/com/boy/limiter/MyRateLimiter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="167">
-          <caret line="18" column="61" selection-start-line="18" selection-start-column="61" selection-end-line="18" selection-end-column="61" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/spring-first/src/main/java/com/boy/hystrix/HelloWorldHystrixCommand.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
@@ -946,17 +825,174 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://D:/java1.8_32bit/src.zip!/java/util/concurrent/Semaphore.java">
+    <entry file="jar://D:/java1.8_32bit/src.zip!/java/util/spi/LocaleNameProvider.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-517">
-          <caret line="523" column="19" selection-start-line="523" selection-start-column="19" selection-end-line="523" selection-end-column="19" />
+        <state relative-caret-position="60">
+          <caret line="36" column="22" selection-start-line="36" selection-start-column="22" selection-end-line="36" selection-end-column="22" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spring-first/src/main/java/com/boy/limiter/QpsRateLimiter.java">
+    <entry file="jar://D:/java1.8_32bit/src.zip!/java/util/function/BiFunction.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="317">
-          <caret line="40" column="20" lean-forward="true" selection-start-line="40" selection-start-column="20" selection-end-line="40" selection-end-column="20" />
+        <state relative-caret-position="405">
+          <caret line="50" column="34" selection-start-line="50" selection-start-column="34" selection-end-line="50" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/java1.8_32bit/src.zip!/java/util/function/UnaryOperator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="40" column="17" selection-start-line="40" selection-start-column="17" selection-end-line="40" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-first/src/main/java/com/boy/alg/Hello.java" />
+    <entry file="jar://D:/java1.8_32bit/src.zip!/java/util/function/Consumer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="49" selection-start-line="49" selection-end-line="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-first/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/war-second/src/main/java/com/boy/alg/Solution.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="14" column="40" selection-start-line="14" selection-start-column="40" selection-end-line="14" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/war-second/src/main/java/com/boy/alg/SortAlg.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="780">
+          <caret line="52" column="30" selection-start-line="52" selection-start-column="30" selection-end-line="52" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-first/src/main/resources/spring/aop.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-first/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="36" column="21" selection-start-line="36" selection-start-column="21" selection-end-line="36" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-first/src/main/java/com/boy/configurer/MyBeanPostProcessor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-first/src/main/java/com/boy/bean/BeanConfigurer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-first/src/main/java/com/boy/bean/InitSequenceBean.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/java1.8_32bit/src.zip!/java/util/concurrent/Semaphore.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="571">
+          <caret line="263" column="11" selection-start-line="263" selection-start-column="11" selection-end-line="263" selection-end-column="11" />
+          <folding>
+            <element signature="e#9084#9085#0" expanded="true" />
+            <element signature="e#9131#9132#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/java1.8_32bit/src.zip!/java/util/function/Supplier.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="39" column="13" lean-forward="true" selection-start-line="39" selection-start-column="13" selection-end-line="39" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/java1.8_32bit/src.zip!/java/lang/FunctionalInterface.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="660">
+          <caret line="67" column="25" selection-start-line="67" selection-start-column="25" selection-end-line="67" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/java1.8_32bit/src.zip!/java/util/function/Function.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="610">
+          <caret line="68" column="5" lean-forward="true" selection-start-line="68" selection-start-column="5" selection-end-line="68" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-first/src/main/java/com/boy/breaker/CircuitBreaker.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="16" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-first/src/main/java/com/boy/breaker/ExecuteCircuitBreaker.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="37" selection-start-line="17" selection-start-column="37" selection-end-line="17" selection-end-column="37" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-first/src/main/java/com/boy/limiter/RedisRateLimiter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1335">
+          <caret line="97" column="9" lean-forward="true" selection-start-line="97" selection-start-column="9" selection-end-line="97" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-first/src/main/java/com/boy/limiter/RedisPermits.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="765">
+          <caret line="51" column="60" selection-start-line="51" selection-start-column="60" selection-end-line="51" selection-end-column="60" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/google/guava/guava/23.0/guava-23.0.jar!/com/google/common/util/concurrent/RateLimiter.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="31" column="53" selection-start-line="31" selection-start-column="37" selection-end-line="31" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-first/src/main/java/com/boy/limiter/MyRateLimiter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-first/src/main/java/com/boy/breaker/QpsCircuitBreaker.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="35" selection-start-line="19" selection-start-column="35" selection-end-line="19" selection-end-column="35" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -965,68 +1001,71 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/spring-first/src/main/java/com/boy/limiter/ExecuteRateLimiter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="25" selection-start-line="17" selection-start-column="16" selection-end-line="17" selection-end-column="25" />
-          <folding>
-            <element signature="e#187#188#0" expanded="true" />
-            <element signature="e#234#235#0" expanded="true" />
-            <element signature="e#377#378#0" expanded="true" />
-            <element signature="e#408#409#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="315">
+          <caret line="25" column="1" lean-forward="true" selection-start-line="25" selection-start-column="1" selection-end-line="25" selection-end-column="1" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spring-first/src/main/java/com/boy/breaker/ExecuteCircuitBreaker.java">
+    <entry file="file://$PROJECT_DIR$/spring-first/src/main/java/com/boy/limiter/QpsRateLimiter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="212">
-          <caret line="17" column="36" lean-forward="true" selection-start-line="17" selection-start-column="36" selection-end-line="17" selection-end-column="36" />
+        <state relative-caret-position="540">
+          <caret line="36" column="36" lean-forward="true" selection-start-line="36" selection-start-column="36" selection-end-line="36" selection-end-column="36" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#551#552#0" expanded="true" />
-            <element signature="e#593#594#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="jar://D:/java1.8_32bit/src.zip!/java/util/function/Supplier.java">
+    <entry file="file://$PROJECT_DIR$/spring-first/src/main/java/com/boy/Interceptor/AuthInterceptor.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="40" column="17" selection-start-line="40" selection-start-column="17" selection-end-line="40" selection-end-column="17" />
+        <state relative-caret-position="135">
+          <caret line="23" column="13" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://D:/java1.8_32bit/src.zip!/java/util/function/BiFunction.java">
+    <entry file="file://$PROJECT_DIR$/spring-first/src/main/java/com/boy/alg/dg.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="50" column="34" lean-forward="true" selection-start-line="50" selection-start-column="34" selection-end-line="50" selection-end-column="34" />
+        <state relative-caret-position="495">
+          <caret line="33" column="9" lean-forward="true" selection-start-line="33" selection-start-column="9" selection-end-line="33" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="jar://D:/java1.8_32bit/src.zip!/java/util/function/UnaryOperator.java">
+    <entry file="jar://D:/java1.8_32bit/src.zip!/java/util/Collections.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="245">
-          <caret line="40" column="17" selection-start-line="40" selection-start-column="17" selection-end-line="40" selection-end-column="17" />
+        <state relative-caret-position="391">
+          <caret line="139" column="57" selection-start-line="139" selection-start-column="57" selection-end-line="139" selection-end-column="57" />
+          <folding>
+            <element signature="e#5644#5645#0" expanded="true" />
+            <element signature="e#5675#5676#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="jar://D:/java1.8_32bit/src.zip!/java/util/spi/LocaleNameProvider.java">
+    <entry file="file://$PROJECT_DIR$/spring-first/src/main/java/com/boy/alg/TwoSum.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="36" column="22" selection-start-line="36" selection-start-column="22" selection-end-line="36" selection-end-column="22" />
+        <state relative-caret-position="330">
+          <caret line="22" column="13" lean-forward="true" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://D:/java1.8_32bit/src.zip!/java/util/function/Consumer.java">
+    <entry file="file://$PROJECT_DIR$/spring-first/src/main/java/com/boy/alg/APowerB.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="371">
-          <caret line="49" lean-forward="true" selection-start-line="49" selection-end-line="49" />
+        <state relative-caret-position="360">
+          <caret line="24" column="9" lean-forward="true" selection-start-line="24" selection-start-column="9" selection-end-line="24" selection-end-column="9" />
+          <folding>
+            <element signature="e#179#180#0" expanded="true" />
+            <element signature="e#215#216#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spring-first/src/main/java/com/boy/breaker/QpsCircuitBreaker.java">
+    <entry file="file://$PROJECT_DIR$/spring-first/src/main/java/com/boy/alg/MidFind.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="41" selection-start-line="5" selection-start-column="41" selection-end-line="5" selection-end-column="41" />
+        <state relative-caret-position="450">
+          <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
