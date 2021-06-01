@@ -3,7 +3,10 @@ package com.boy.alg;
 /**
  * @Author: lihuifeng6
  * @Date: 2021/4/6 8:59
- * 正则匹配算法
+ * 正则匹配算法 - 动态规划法 = 当前结果，基于父结果
+ * text = aab
+ * patten = c*a*b
+ * patten的第j个字符是*时 f[i][j] = f[i][j-2] // *表示j-1的字符可以匹配自然数，或0次
  */
 
 
